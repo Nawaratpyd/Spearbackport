@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "spearbackport"
+version = "1.0.0"
+displayName = "Spear Backport"
+authors = "Your Name"
+description = '''
+Spears (wooden, stone, copper, iron, golden, diamond, netherite) backported to Minecraft 1.21.1.
+Jab with left click, or hold right click and run into enemies for a charge attack.
+Original code and original textures.
+'''
+
+[[dependencies.spearbackport]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.spearbackport]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"

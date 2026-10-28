@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "spearbackport:wooden_spear",
+    "spearbackport:stone_spear",
+    "spearbackport:copper_spear",
+    "spearbackport:iron_spear",
+    "spearbackport:golden_spear",
+    "spearbackport:diamond_spear",
+    "spearbackport:netherite_spear"
+  ]
+}
